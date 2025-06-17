@@ -6,15 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A96E29742E00563700C65FE4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A96E29732E00563700C65FE4 /* SnapKit */; };
+		A96E29792E014EFF00C65FE4 /* CocoaAsyncSocket in Frameworks */ = {isa = PBXBuildFile; productRef = A96E29782E014EFF00C65FE4 /* CocoaAsyncSocket */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A9A4C9232DF80C0100CF588A /* iOSBarcodeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBarcodeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A9A4C9382DF80C0100CF588A /* Exceptions for "iOSBarcodeApp" folder in "iOSBarcodeApp" target */ = {
+		A9A4C9782DF8236700CF588A /* Exceptions for "iOSBarcodeApp" folder in "iOSBarcodeApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"Supporting Files/Info.plist",
 			);
 			target = A9A4C9222DF80C0100CF588A /* iOSBarcodeApp */;
 		};
@@ -24,7 +29,7 @@
 		A9A4C9252DF80C0100CF588A /* iOSBarcodeApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				A9A4C9382DF80C0100CF588A /* Exceptions for "iOSBarcodeApp" folder in "iOSBarcodeApp" target */,
+				A9A4C9782DF8236700CF588A /* Exceptions for "iOSBarcodeApp" folder in "iOSBarcodeApp" target */,
 			);
 			path = iOSBarcodeApp;
 			sourceTree = "<group>";
@@ -36,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96E29792E014EFF00C65FE4 /* CocoaAsyncSocket in Frameworks */,
+				A96E29742E00563700C65FE4 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +85,8 @@
 			);
 			name = iOSBarcodeApp;
 			packageProductDependencies = (
+				A96E29732E00563700C65FE4 /* SnapKit */,
+				A96E29782E014EFF00C65FE4 /* CocoaAsyncSocket */,
 			);
 			productName = iOSBarcodeApp;
 			productReference = A9A4C9232DF80C0100CF588A /* iOSBarcodeApp.app */;
@@ -107,6 +116,10 @@
 			);
 			mainGroup = A9A4C91A2DF80C0100CF588A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A96E29722E00563700C65FE4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A96E29772E014EFF00C65FE4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A9A4C9242DF80C0100CF588A /* Products */;
 			projectDirPath = "";
@@ -147,12 +160,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UN4A73P8F3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOSBarcodeApp/Info.plist;
+				INFOPLIST_FILE = "/Users/omerahiskali/ReadProjects/iOSBarcodeApp/iOSBarcodeApp/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "barcode app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Barkod taraması yapabilmek için kamera erişimine ihtiyaç duyulmaktadır.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -175,12 +192,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UN4A73P8F3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iOSBarcodeApp/Info.plist;
+				INFOPLIST_FILE = "/Users/omerahiskali/ReadProjects/iOSBarcodeApp/iOSBarcodeApp/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "barcode app";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Barkod taraması yapabilmek için kamera erişimine ihtiyaç duyulmaktadır.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -247,6 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/omerahiskali/ReadProjects/iOSBarcodeApp/iOSBarcodeApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -305,6 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/Users/omerahiskali/ReadProjects/iOSBarcodeApp/iOSBarcodeApp/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -337,6 +360,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A96E29722E00563700C65FE4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		A96E29772E014EFF00C65FE4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/robbiehanson/CocoaAsyncSocket.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.6.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A96E29732E00563700C65FE4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A96E29722E00563700C65FE4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A96E29782E014EFF00C65FE4 /* CocoaAsyncSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A96E29772E014EFF00C65FE4 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */;
+			productName = CocoaAsyncSocket;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A9A4C91B2DF80C0100CF588A /* Project object */;
 }
